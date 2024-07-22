@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurukrupa Xerox And Soham Multiservices</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Inline styles for demonstration purposes */
+        /* You can move this to your styles.css file */
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/unnamed.png" alt="Logo">
+        <h1>Gurukrupa Xerox And Soham Multiservices</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showTab('home')">Home</a> |
+        <a href="#" onclick="showTab('about')">About Us</a> |
+        <a href="#" onclick="showTab('services')">Services</a> |
+        <a href="#" onclick="showTab('contact')">Contact</a> |
+        <a href="#" onclick="showTab('map')">Location Map</a>
+    </nav>
+    <div class="search-bar">
+        <form action="https://www.google.com/search" method="get" target="_blank">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div class="container">
+        <!-- Home Tab -->
+        <div class="tab-content home active">
+            <h2>Welcome to Gurukrupa Xerox And Soham Multiservices</h2>
+            <p>We are your one-stop solution for all document-related needs in Balaji Nagar, Bhokardan.</p>
+            <p>Explore our website to learn more about our services and how we can assist you.</p>
+            <!-- Image Slider -->
+            <div class="slider">
+                <div class="slides">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.40_654571bd.jpg" alt="Slide 1">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.39_320804a3.jpg" alt="Slide 2">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.38_ad72def0.jpg" alt="Slide 3">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.44_040ae88f.jpg" alt="Slide 4">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.48_a70af0d3.jpg" alt="Slide 5">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.49_b7a46541.jpg" alt="Slide 6">
+                    <img src="images/WhatsApp_Image_2024-07-02_at_08.15.45_837aee3b.jpg" alt="Slide 7">
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+        <!-- About Us Tab -->
+        <div class="tab-content about">
+            <h2>About Us</h2>
+            <p>Gurukrupa Xerox And Soham Multiservices is dedicated to providing top-notch xerox and print services in Balaji Nagar, Bhokardan. Our aim is to deliver quality services to meet all your document needs.</p>
+        </div>
+        <!-- Services Tab -->
+        <div class="tab-content services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="images/1721472304262-c0700d40-bf21-4a3d-be99-e29607106846-8147.png" alt="Service 1">
+                <div>
+                    <h3>Color Xerox</h3>
+                    <p>High-quality color xerox services for all your document needs.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/1721472379510-b5d5c2b4-2621-4215-be83-949bed1c4f17-5961.png" alt="Service 2">
+                <div>
+                    <h3>Black & White Xerox</h3>
+                    <p>Reliable black and white xerox services at competitive prices.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/1721472449712-7ad08080-2c9e-43c8-9d58-174fbcc887d5-6937.png" alt="Service 3">
+                <div>
+                    <h3>Color Print</h3>
+                    <p>Professional color printing services for high-quality outputs.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/1721472525523-0c94cada-79ae-49e4-b4d2-7172112622c8-3208.png" alt="Service 4">
+                <div>
+                    <h3>Black & White Print</h3>
+                    <p>Efficient black and white printing for all your requirements.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/1721472584383-3d1ac255-f4ba-4ae6-8529-7b164837a966-9679.png" alt="Service 5">
+                <div>
+                    <h3>Lamination Service</h3>
+                    <p>Durable lamination services to protect your important documents.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/1721472640999-052e09ac-5960-45f3-940f-06ec31770f82-1186.png" alt="Service 6">
+                <div>
+                    <h3>Online Services</h3>
+                    <p>Convenient online services such as form filling and registration.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Tab -->
+        <div class="tab-content contact">
+            <h2>Contact Us</h2>
+            <p>Address: Balaji Nagar, Bhokardan</p>
+            <p>Owner: Narayan Katore</p>
+            <p>Email: <a href="mailto:narayan.katore9@gmail.com">narayan.katore9@gmail.com</a></p>
+            <p>Phone: <a href="tel:7747062299">7747062299</a></p>
+        </div>
+        <!-- Location Map Tab -->
+        <div class="tab-content map">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <!-- Embed Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.3551886429073!2d75.7737305!3d20.244098899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bda33c9ec1ac4fb%3A0xbf3e89e049a39d66!2sGurukrupa%20Xerox%20And%20Soham%20Multiservices!5e0!3m2!1sen!2sin!4v1721471830252!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gurukrupa Xerox And Soham Multiservices. All rights reserved.</p>
+        <p><a href="mailto:narayan.katore9@gmail.com">Contact Us</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
